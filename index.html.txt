@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold & Forex Forecasts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gold & Forex Forecasts</h1>
+        <p>Your go-to resource for gold and forex market trends, analysis, and news.</p>
+    </header>
+
+    <main>
+        <!-- Forecast Section -->
+        <section id="forecasts">
+            <h2>Weekly Forecasts</h2>
+            <div class="forecast">
+                <h3>Gold Forecast</h3>
+                <img src="gold_forecast_chart.png" alt="Gold Forecast Chart">
+                <p>Gold is trending bullish this week with a price target of $2,000. Action: Buy on dips.</p>
+            </div>
+            <div class="forecast">
+                <h3>EUR/USD Forecast</h3>
+                <img src="eur_usd_forecast_chart.png" alt="EUR/USD Forecast Chart">
+                <p>EUR/USD is showing a bearish trend. Action: Wait for corrections.</p>
+            </div>
+        </section>
+
+        <!-- Calendar Section -->
+        <section id="calendar">
+            <h2>Weekly Calendar</h2>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Impact</th>
+                </tr>
+                <tr class="high-impact">
+                    <td>Dec 14</td>
+                    <td>Federal Reserve Meeting</td>
+                    <td>High</td>
+                </tr>
+                <tr class="medium-impact">
+                    <td>Dec 15</td>
+                    <td>US CPI Data Release</td>
+                    <td>Medium</td>
+                </tr>
+                <tr class="low-impact">
+                    <td>Dec 16</td>
+                    <td>Gold Import Data (India)</td>
+                    <td>Low</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- News Section -->
+        <section id="news">
+            <h2>Market News</h2>
+            <article>
+                <h3>Gold Prices Surge Amid Inflation Concerns</h3>
+                <p>Global markets are witnessing a rally in gold prices as inflation hits a decade high...</p>
+            </article>
+            <article>
+                <h3>USD Weakens as Fed Signals a Policy Shift</h3>
+                <p>The US dollar has weakened following dovish remarks from the Federal Reserve...</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gold & Forex Forecasts. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+document.addEventListener('DOMContentLoaded', function () {
+    // Example: Add a dynamic greeting based on time
+    const header = document.querySelector('header p');
+    const hour = new Date().getHours();
+    if (hour < 12) {
+        header.innerText += " Good morning!";
+    } else if (hour < 18) {
+        header.innerText += " Good afternoon!";
+    } else {
+        header.innerText += " Good evening!";
+    }
+});
